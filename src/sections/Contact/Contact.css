@@ -1,0 +1,38 @@
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020617;
+  color: #e5e7eb;
+  padding: 2rem;
+}
+
+.contact {
+  max-width: 600px;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 1rem;
+}
+
+.contact-list a {
+  margin-left: 0.5rem;
+  color: #38bdf8;
+  text-decoration: none;
+}
