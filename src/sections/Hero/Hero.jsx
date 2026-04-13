@@ -21,12 +21,12 @@ export default function Hero() {
         </p>
 
         <nav className="hero-actions" aria-label="Primary actions">
-          <a href="#projects" className="btn primary">
+          <Link to="/projects" className="btn primary">
             View Projects
-          </a>
-        <Link to="/contact" className="btn secondary">
+          </Link>
+          <Link to="/contact" className="btn secondary">
             Contact Me
-        </Link>
+          </Link>
         </nav>
       </div>
     </header>
