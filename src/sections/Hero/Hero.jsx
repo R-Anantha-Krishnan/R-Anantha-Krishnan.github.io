@@ -5,11 +5,13 @@ export default function Hero() {
   return (
     <header className="hero" role="banner">
       <div className="hero-content">
-        <img
-          src="/Anantha_Krishnan.jpg"
-          alt="Anantha Krishnan"
-          className="hero-image"
-        />
+        <div className="hero-image-wrapper">
+          <img
+            src="/Anantha.png"
+            alt="Anantha Krishnan"
+            className="hero-image"
+          />
+        </div>
         <h1>
           Hi, I&apos;m <span className="hero-name">Anantha Krishnan</span> 👋
         </h1>
@@ -24,6 +26,14 @@ export default function Hero() {
           <Link to="/projects" className="btn primary">
             View Projects
           </Link>
+          <a
+            href="https://anantha-gamified-resume.vercel.app/"
+            className="btn secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gamified Resume
+          </a>
           <Link to="/contact" className="btn secondary">
             Contact Me
           </Link>
