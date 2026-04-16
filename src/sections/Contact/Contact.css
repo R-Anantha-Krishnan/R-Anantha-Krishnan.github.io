@@ -36,3 +36,12 @@
   color: #38bdf8;
   text-decoration: none;
 }
+
+.contact-actions {
+  margin-top: 2rem;
+}
+
+.contact-actions .btn {
+  display: inline-flex;
+  align-items: center;
+}

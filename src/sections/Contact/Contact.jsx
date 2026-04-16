@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Contact.css";
 
 export default function Contact() {
@@ -36,6 +37,12 @@ export default function Contact() {
             </a>
           </li>
         </ul>
+
+        <div className="contact-actions">
+          <Link to="/" className="btn primary">
+            Back Home
+          </Link>
+        </div>
       </section>
     </main>
   );
